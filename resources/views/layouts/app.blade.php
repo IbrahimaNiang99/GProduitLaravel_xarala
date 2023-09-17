@@ -23,17 +23,11 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ route('listeProduit') }}">
-                    Produit
+                <a class="navbar-brand" href="{{ route('listerv') }}">
+                    Rendez-vous
                 </a>
-                <a class="navbar-brand" href="{{ route('listeCategorie') }}">
-                    Catégorie
-                </a>
-                <a class="navbar-brand" href="{{ route('listeEntree') }}">
-                    Entrée
-                </a>
-                <a class="navbar-brand" href="{{ route('listeSortie') }}">
-                    Sortie
+                <a class="navbar-brand" href="{{ route('listemedecin') }}">
+                    Medecin
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
